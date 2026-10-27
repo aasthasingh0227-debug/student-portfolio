@@ -1,0 +1,93 @@
+  /* Universal Selector */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Element Selectors */
+        body {
+            background-color: #f8f5ff;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            margin: 15px;
+        }
+
+        header {
+            background-color: #e6dcf5;
+            color: #333333;
+            padding: 15px;
+        }
+
+        h1 {
+            color: #6b3fa0;
+        }
+
+        h2 {
+            color: #8054a8;
+        }
+
+        hr {
+            border-color: #c7b2e2;
+        }
+
+        section {
+            background-color: #ffffff;
+            color: #333333;
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        footer {
+            background-color: #e6dcf5;
+            color: #333333;
+            padding: 15px;
+        }
+
+        /* Class Selector */
+        .profile-photo {
+            width: 110px;
+            height: 110px;
+        }
+
+        .highlight {
+            color: #8054a8;
+        }
+
+        /* ID Selector */
+        #marksheets {
+            background-color: #f0e8fa;
+        }
+
+        #feedback {
+            background-color: #ffffff;
+        }
+
+        /* Descendant Selector */
+        #marksheets a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #feedback input,
+        #feedback select,
+        #feedback textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            border: 1px solid #c7b2e2;
+        }
+
+        /* Button Styling */
+        button {
+            background-color: #8054a8;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #6b3fa0;
+        }
+
+        footer h2 {
+            color: #6b3fa0;
+        }
